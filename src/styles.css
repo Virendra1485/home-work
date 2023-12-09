@@ -1,0 +1,141 @@
+.login-style {
+    text-decoration: none;
+    color: #6d6e6e;
+}
+
+.login-style:hover {
+    text-decoration: none;
+    color: #252525;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-bar-lift {
+    flex-grow: 1;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.nav-bar-left-content {
+    padding: 0 40px;
+    color: #23afb3;
+}
+
+.nav-bar-left-content-button-div {
+    padding: 0 40px;
+}
+
+.nav-bar-left-content-button {
+    color: #23afb3;
+    /* background-color: #23afb3; */
+    border-radius: 5px;
+}
+
+.nav-bar-left-content-button:hover {
+    background-color: #23afb3;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.login-style-div {
+    margin-top: 20px;
+}
+
+.crs-left {
+    position: absolute;
+    width: 600px;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    /* font-weight: bold; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.crs-button {
+    display: inline-flex;
+    font-weight: 500;
+    background: #23afb3;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.4em 0.5em;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .25s;
+    flex-shrink: 0;
+    text-align: center;
+    white-space: nowrap;
+    outline: none;
+    border: none;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1em;
+    position: relative;
+    line-height: 1.5em;
+}
+
+.crs-button:hover {
+    background: #28c7cc;
+    color: #fff;
+}
+
+.crs-button-and-link-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.crs-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.crs-link:hover {
+    text-decoration: none;
+    color: #23afb3;
+}
+
+.feedback-img {
+    /* background-color: red; */
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 480px;
+}
+
+.crs-cards {
+    display: flex;
+    margin-top: 60px;
+}
+
+.crs-card {
+    color: black;
+    width: 18rem;
+    margin-right: 100px;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #002744;
+    opacity: 1;
+    /* Set opacity to 1 for full opacity */
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.5);
+    /* Add shadow to the right side */
+}
+
+.crs-card-body {
+    padding-left: 100px;
+    padding: 480px;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.5);   
+    color: red;
+}
