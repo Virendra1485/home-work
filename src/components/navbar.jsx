@@ -18,7 +18,7 @@ const HomeWorkNevigation = () => {
             </div>
             <div className="nav-bar-left-content-button">
               <button type="button" className="btn btn-outline-success nav-bar-left-content-button">
-                Success
+                get your help
               </button>
             </div>
           </div>
